@@ -1,0 +1,65 @@
+.container {
+  display: grid;
+  grid-template-columns: 24px 1fr 24px;
+  column-gap: 16px;
+  background-color: var(--gray-500);
+  border: 1px solid var(--gray-400);
+  border-radius: 8px;
+  padding: 16px 24px;
+}
+
+.button {
+  width: 24px;
+  height: 24px;
+  margin-right: 16px;
+  background-color: transparent;
+  border-radius: 17px;
+  border-width: 2px;
+  border-style: solid;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.button:hover {
+  opacity: 0.7;
+}
+
+.checked {
+  background-color: var(--purple);
+  border-color: var(--purple);
+}
+
+.notChecked {
+  border-color: var(--blue);
+}
+
+.container p {
+  font-size: 1rem;
+  font-weight: 400;
+  color: var(--gray-100);
+}
+
+.descriptionCompleted {
+  color: var(--gray-300) !important;
+  text-decoration: line-through;
+}
+
+.buttonRemove {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: transparent;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: .1s background-color;
+  padding: 4px;
+  width: 1.4rem;
+  height: 1.4rem;
+}
+
+.buttonRemove:hover {
+  background-color: var(--danger);
+}

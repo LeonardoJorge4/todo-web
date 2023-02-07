@@ -1,0 +1,54 @@
+.content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 70rem;
+  margin: 0 auto;
+  padding: 0 1rem;
+}
+
+.contentHeader {
+  width: 100%;
+  display: flex;
+  gap: 8px;
+  margin-top: -27px;
+}
+
+.containerTasks {
+  width: 100%;
+  margin-top: 64px;
+}
+
+.headerTasks {
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 24px;
+}
+
+.headerTasks p {
+  font-weight: bold;
+  font-size: 0.8rem;
+}
+
+.headerTasks p span {
+  color: var(--gray-200);
+  font-weight: bold;
+  font-size: 0.8rem;
+  padding: 2px 8px;
+  background-color: var(--gray-400);
+  border-radius: 8px;
+}
+
+.colorMain {
+  color: var(--blue);
+}
+
+.colorSecondary {
+  color: var(--purple);
+}
+
+.contentTasks {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
