@@ -14,7 +14,7 @@
 
 ## 🕵️ Sobre 
 
-Todo App simples que foi criado para resolução do desafio do curso Ignite da Rocketseat. Essa aplicação apesar de simples é um excelente exemplo para praticar o desenvolvimento de apps CRUD (Create, Read, Update, Delete).
+Todo App simples que foi criado para resolução do desafio do curso Ignite da Rocketseat. Essa aplicação apesar de simples é um excelente exemplo para praticar manipulação de estados.
 
 ## 🚀 Tecnologias
 
